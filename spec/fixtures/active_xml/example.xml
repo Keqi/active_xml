@@ -1,0 +1,10 @@
+<example>
+  <object>
+    <id>1</id>
+    <name>Foo</name>
+  </object>
+  <object>
+    <id>2</id>
+    <name>Bar</name>
+  </object>
+</example>

@@ -1,0 +1,17 @@
+<example>
+  <object>
+    <id>1</id>
+    <name>Foo</name>
+    <code>ABC</code>
+  </object>
+  <object>
+    <id>1</id>
+    <name>Foo1</name>
+    <code>ABCD</code>
+  </object>
+  <object>
+    <id>2</id>
+    <name>Bar</name>
+    <code>CBA</code>
+  </object>
+</example>
