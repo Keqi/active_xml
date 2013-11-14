@@ -20,7 +20,7 @@ module ActiveXML
       each do |elem|
         route = Route.new(route_path, elem)
         hashed_path = route.to_hash
-        path = Pathname.new(hashed_path.values[0])
+        path = Pathname.new(hashed_path.values[0].join("/"))
         create_file(path, elem.to_xml)
         hash.merge!(hashed_path) { |key,old,new| old.class == Array ? old << new[0] : [new,old] }
       end
@@ -43,7 +43,7 @@ module ActiveXML
 
     private
 
-    def root 
+    def root
       "objects"
     end
 

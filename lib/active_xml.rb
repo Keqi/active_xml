@@ -7,7 +7,6 @@ require 'nokogiri'
 require 'active_support/core_ext/hash/conversions'
 require 'pry'
 require 'pathname'
-require 'facets/pathname'
 
 require 'fileutils'
 
