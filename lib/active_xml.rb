@@ -5,7 +5,6 @@ require 'active_xml/collection/route'
 require 'active_xml/object'
 require 'nokogiri'
 require 'active_support/core_ext/hash/conversions'
-require 'pry'
 require 'pathname'
 
 require 'fileutils'
